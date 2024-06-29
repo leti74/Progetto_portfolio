@@ -1,0 +1,113 @@
+.grid-quality {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-bottom: 0;
+
+}
+
+.creative {
+background-color: rgb(229, 217, 196);
+text-align: center;
+margin-right: 30px;
+margin-left: 15px;
+border-radius: 60px;
+padding: 70px;
+height: 250px;
+
+}
+
+img {
+    width: 130px;
+}
+.img-creative {
+    margin-top: -20px;
+}
+.img-creative img{
+    width: 150px;
+}
+
+.section-quality{
+margin-bottom: 160px;
+}
+
+.section-quality h1{
+ margin-bottom: 140px;
+ text-align: center;
+ background-color:rgb(158, 66, 75);
+ color: white;
+ padding: 5px;
+ 
+ 
+}
+
+.intuitive {
+background-color: rgb(202, 201, 225);
+text-align: center;
+margin-right: 30px;
+border-radius: 60px;
+padding: 70px;
+height: 250px;
+}
+
+.open-mind {
+background-color: rgb(205, 230, 220);
+text-align: center;
+border-radius: 60px;
+padding: 70px;
+height: 250px;
+margin-right: 15px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .grid-quality {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        }
+
+    .creative {
+        margin-bottom: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+    }
+    .intuitive {
+        margin-bottom: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .open-mind {
+        margin-right: 20px;
+        margin-left: 20px;
+        }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:1279px){
+    .grid-quality {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        }
+
+
+    .open-mind {
+            margin-right: 35px;
+            margin-left: 15px;
+            margin-top: 30px;
+            
+         }
+    
+      
+    
+
+
+}

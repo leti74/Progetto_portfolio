@@ -1,0 +1,261 @@
+
+.section-skills h1{
+    margin-bottom: 140px;
+    text-align: center;
+    background-color: rgb(158, 66, 75);
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.section-skills1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr ;
+    margin-bottom: 160px;
+}
+
+.university {
+
+    margin-right: 100px;
+    margin-left: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.university p {
+    margin-top: 7px;
+}
+.skills-uni {
+    background-color: rgb(221, 209, 209);
+    padding: 15px;
+    border-radius: 40px;
+    margin-right: 50px;
+    
+}
+
+.skills-uni p{
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px;
+}
+
+.design {
+   margin-right: 10px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.design span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    margin-right: 70px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.product span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.software {
+    margin-right: 40px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.software span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.team{
+    margin-right: 10px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.team span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.web {
+    margin-right: 10px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.web span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.start2impact{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+
+.skills-start {
+    background-color: rgb(221, 209, 209);
+    padding: 15px;
+    border-radius: 40px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.start2impact p{
+    margin-top: 7px;
+}
+.skills-start p{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.html {
+   margin-right: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.html span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.css {
+    margin-right: 70px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.css span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.js {
+    margin-right: 110px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.js span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+.bootstrap {
+    margin-right: 140px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.bootstrap span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.git {
+    margin-right: 110px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.git span {
+    margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;margin-right: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+   
+    .section-skills1 {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .university {
+
+        margin-right: 50px;
+        margin-left: 30px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-bottom: 30px;
+    }
+    
+
+    .skills-uni {
+        background-color: rgb(221, 209, 209);
+        padding: 15px;
+        border-radius: 40px;
+        margin-right: 27px;
+        margin-left: 20px;
+    }
+
+    .start2impact{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .skills-start {
+        background-color: rgb(221, 209, 209);
+        padding: 15px;
+        border-radius: 40px;
+        margin-right: 27px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}
