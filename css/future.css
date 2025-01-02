@@ -12,8 +12,7 @@
     margin-bottom: 130px;
     background-color: rgb(158, 66, 75);
     color: white;
-    padding: 5px;
-   
+    padding: 13px;
     
 }
 
@@ -30,6 +29,48 @@
     margin-right: 160px;
 }
 
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(221, 209, 209);
+    
+    
+    
+}
+
+.contattami h1 {
+    margin-bottom: 40px;
+    margin-top: 33px;
+}
+
+.contattami button{
+ margin-bottom: 50px;
+ background-color:white;
+ border: none;
+ height: 30px;
+ width: 50px;
+ border-radius: 7px;
+ cursor: pointer;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.email {
+    margin-bottom: 30px;
+}
+
+.label{
+    margin-right: 5px;
+   
+}
+
+.message {
+    margin-bottom: 30px;
+}
 
 @media  only screen and (max-width: 480px) {
 

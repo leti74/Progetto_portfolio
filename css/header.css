@@ -1,93 +1,90 @@
 
-
 .header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(158, 66, 75);
-    color: white;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 0;
-    padding: 15px;
+    background-color: rgb(158, 66, 75); 
     position: fixed;
+    width: 100%;
+    z-index: 1; 
     
-   
-
-}
-
-.menù>li {
- display: inline;
- margin-right: 50px; 
-
- 
-}
-
-.menù>li :last-of-type {
-    margin-right: 45px;
-}
-
-.portfolio {
-    display: flex;
-    align-items: center;
-    margin-left: 45px;
     
 }
 
-@media only screen and (max-width: 480px) {
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color:rgb(158, 66, 75) ;    
+}
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        background-color: rgb(158, 66, 75);
-        color: white;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin-bottom: 0;
-        padding: 15px;
+.header ul a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.header ul a:hover {
+    background-color:rgb(139, 57, 65); ;
+}
+
+.header .logo{
+    float: left;
+    width: 40px;
+    padding: 10px 20px;
+    margin-top: 7px;
+}
+
+.header .menù {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+} 
+
+.header .menù-icon {
+    padding: 20px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.header .nav-icon img {
+    width: 25px;
+    margin-top: 6px;
+}
+
+.header .menù-btn  {
+    display: none;
+}
+
+
+.header .menù-btn:checked ~ .menù {
+  max-height: 240px;
+}
+
+
+@media (min-width: 48em) {
+    .header li{
+    float: left;
+    margin-top: 4px;
     }
 
-    .menù>li {
-        display: inline;
-        margin-right: 8px; 
-        font-size: 12px;
-       }
 
-       .menù>li :last-of-type {
-        margin-right: 0;
+    .header li a {
+        padding: 20px 30px;
     }
-    
-    .portfolio {
-        display: flex;
-        align-items: center;
-        margin-left: 0;
-        font-size: 12px;
+
+    .header .menù{ 
+        clear: none;
+        float: right;
+        max-height: 0;
+    }
+
+    .header .menù-icon {
+        display: none;
     }
 }
 
 
 
 
-
-@media only screen and (min-width:481px) and (max-width:1279px){
-
-
-    
-    .portfolio {
-        display: flex;
-        align-items: center;
-        margin-left: 0;
-       margin-left: 10px;   
-    }
-
-   
-    
-    .menù>li {
-        display: inline;
-        margin-right:40px; 
-       }
-        
-    }
-    
 
