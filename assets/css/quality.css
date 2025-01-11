@@ -4,6 +4,10 @@
     margin-bottom: 0;
     
     }
+
+    h3 {
+        font-size: 23px;
+    }
     
     .creative {
     background-color: rgb(229, 217, 196);
@@ -30,7 +34,7 @@
     margin-bottom: 160px;
     }
     
-    .section-quality h1{
+    .section-quality h2{
      margin-bottom: 140px;
      text-align: center;
      background-color:rgb(158, 66, 75);

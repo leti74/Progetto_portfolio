@@ -7,7 +7,7 @@
     margin-bottom: 160px;
 }
 
-.section-future h1{
+.section-future h2{
     text-align: center;
     margin-bottom: 130px;
     background-color: rgb(158, 66, 75);
@@ -34,12 +34,18 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    background-color: rgb(221, 209, 209);
-    
-    
-    
 }
 
+.contattami {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 160px;
+    background-color: rgb(221, 209, 209);
+    border-radius: 60px;
+    
+}
 .contattami h1 {
     margin-bottom: 40px;
     margin-top: 33px;
@@ -64,15 +70,17 @@
 }
 
 .label{
-    margin-right: 5px;
+    margin-right: 10px;
    
 }
 
 .message {
     margin-bottom: 30px;
+   
 }
 
-@media  only screen and (max-width: 480px) {
+@media  only screen and (max-width: 790px) {
+
 
     .grid-future{
         display: grid;
@@ -81,13 +89,20 @@
     }
 
     .description-future1 {
-        margin-right: 40px;
-        margin-left: 30px;
+        margin-right: 30px;
+        margin-left: 40px;
     }
 
     .description-future2 {
-        margin-right: 40px;
-        margin-left: 30px;
+        margin-right: 30px;
+        margin-left: 40px;
     }
     
+    .contattami {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 160px;
+        
+        
+    }
 }
